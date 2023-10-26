@@ -68,4 +68,5 @@ Use the following steps to cluster the cryptocurrencies for the best value for k
       - What is the impact of using fewer features to cluster the data using K-Means?
         
 *REWIND*
+
 Recall that you learned how to create composite plots in a previous module. If you need a refresher on how to create these plots, review that module. You can also check Composing PlotsLinks to an external site. in the hvPlot documentation.
