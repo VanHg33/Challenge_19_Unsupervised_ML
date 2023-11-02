@@ -29,7 +29,7 @@ Use the following steps to cluster the cryptocurrencies for the best value for k
   - Predict the clusters to group the cryptocurrencies using the original scaled DataFrame.
   - Create a copy of the original data and add a new column with the predicted clusters.
   - Create a scatter plot using hvPlot as follows:
-      - Set the x-axis as "PC1" and the y-axis as "PC2".
+      - Set the x-axis as "price_change_percentage_24h" and the y-axis as "price_change_percentage_7d".
       - Colour the graph points with the labels found using K-means.
       - Add the "coin_id" column in the hover_cols parameter to identify the cryptocurrency represented by each data point.
         
@@ -61,7 +61,7 @@ Use the following steps to cluster the cryptocurrencies for the best value for k
   - Predict the clusters to group the cryptocurrencies using the PCA data.
   - Create a copy of the DataFrame with the PCA data and add a new column to store the predicted clusters.
   - Create a scatter plot using hvPlot as follows:
-      - Set the x-axis as "price_change_percentage_24h" and the y-axis as "price_change_percentage_7d".
+      - Set the x-axis as "PC1" and the y-axis as "PC2".
       - Colour the graph points with the labels found using K-means.
       - Add the "coin_id" column in the hover_cols parameter to identify the cryptocurrency represented by each data point.
   - Answer the following question:
@@ -70,3 +70,7 @@ Use the following steps to cluster the cryptocurrencies for the best value for k
 *REWIND*
 
 Recall that you learned how to create composite plots in a previous module. If you need a refresher on how to create these plots, review that module. You can also check Composing PlotsLinks to an external site. in the hvPlot documentation.
+
+
+
+
